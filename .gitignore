@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Project-specific: the DuckDB file is too large for git
+data/db/jobs.duckdb
+data/db/*.duckdb
+data/db/*.backup*
+
+# Raw API responses (also too large, can be regenerated)
+data/raw/
+data/cache/
+
+# Logs (regenerated each run)
+logs/
+*.log
+
+# Local cache files
+*.pkl
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
