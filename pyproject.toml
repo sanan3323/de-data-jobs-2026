@@ -1,0 +1,19 @@
+[project]
+name = "de-data-jobs-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.2",
+    "ipykernel>=7.2.0",
+    "lingua-language-detector>=2.2.0",
+    "loguru>=0.7.3",
+    "openai>=2.37.0",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "tenacity>=9.1.4",
+    "tqdm>=4.67.3",
+]
